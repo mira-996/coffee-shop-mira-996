@@ -10,5 +10,5 @@ interface OrderRepository {
 
     fun update(order: OrderDTO): OrderDTO
 
+    fun delete(id: OrderId): Boolean
 }
-
